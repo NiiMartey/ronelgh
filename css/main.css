@@ -1,38 +1,31 @@
 /*
-Error: File to import not found or unreadable: ‘_plugins/plugins-dir’.
-        on line 1 of main.sass
+Error: Invalid CSS after "...00,600,700,800)": expected media query list, was ";"
+        on line 2 of main.sass
 
-1: @import ‘_plugins/plugins-dir’
-2: @import ‘_base/base-dir’
-3: @import ‘_modules/modules-dir’
-4: @import ‘_layouts/layouts-dir’
+1: // Google Fonts
+2: @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+3: @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
+4: @import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
+5: 
+6: // Imports
+7: 
 
 Backtrace:
-main.sass:1
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+main.sass:2
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/scss/parser.rb:74:in `parse_media_query_list'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:1039:in `parse_import_arg'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:998:in `block in parse_import_directive'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:997:in `loop'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:997:in `parse_import_directive'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:812:in `parse_directive'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:646:in `parse_line'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:536:in `build_tree'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
+/Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
 /Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
 /Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
 /Users/NiiMartey/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
@@ -50,4 +43,4 @@ main.sass:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ‘_plugins/plugins-dir’.\A         on line 1 of main.sass\A \A 1: @import ‘_plugins/plugins-dir’\A 2: @import ‘_base/base-dir’\A 3: @import ‘_modules/modules-dir’\A 4: @import ‘_layouts/layouts-dir’"; }
+  content: "Error: Invalid CSS after \"...00,600,700,800)\": expected media query list, was \";\"\A         on line 2 of main.sass\A \A 1: // Google Fonts\A 2: @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);\A 3: @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);\A 4: @import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);\A 5: \A 6: // Imports\A 7: "; }
